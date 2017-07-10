@@ -44,3 +44,27 @@
 2017/07/10 10:01:35 [error] 22#22: *49 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /nginx-consul-443 HTTP/1.1", upstream: "http://172.22.0.6:7071/nginx-consul-443", host: "localhost:7071"
 2017/07/10 10:01:38 [error] 22#22: *49 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /nginx-consul-443 HTTP/1.1", upstream: "http://172.22.0.6:7071/nginx-consul-443", host: "localhost:7071"
 2017/07/10 10:01:40 [error] 22#22: *49 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /nginx-consul-443 HTTP/1.1", upstream: "http://172.22.0.6:7071/nginx-consul-443", host: "localhost:7071"
+2017/07/10 11:09:16 [notice] 23#23: signal process started
+2017/07/10 11:11:19 [error] 24#24: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /orangehrm-apache HTTP/1.1", upstream: "http://172.22.0.4:5050/orangehrm-apache", host: "localhost:7071"
+2017/07/10 11:13:48 [notice] 21#21: signal process started
+2017/07/10 11:15:01 [notice] 24#24: signal process started
+2017/07/10 11:15:01 [notice] 27#27: signal process started
+2017/07/10 11:16:35 [notice] 25#25: signal process started
+2017/07/10 11:20:10 [error] 26#26: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /orangehrm-apache HTTP/1.1", upstream: "http://172.22.0.4:5050/orangehrm-apache", host: "localhost:7071"
+2017/07/10 11:20:12 [error] 26#26: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /orangehrm-apache HTTP/1.1", upstream: "http://172.22.0.4:5050/orangehrm-apache", host: "localhost:7071"
+2017/07/10 11:21:24 [notice] 22#22: signal process started
+2017/07/10 11:22:46 [error] 23#23: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /orangehrm-apache HTTP/1.1", upstream: "http://172.22.0.4:5050/orangehrm-apache", host: "localhost:7071"
+2017/07/10 11:22:48 [error] 23#23: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /orangehrm-apache HTTP/1.1", upstream: "http://172.22.0.4:5050/orangehrm-apache", host: "localhost:7071"
+2017/07/10 11:25:59 [notice] 21#21: signal process started
+2017/07/10 11:27:07 [notice] 25#25: signal process started
+2017/07/10 11:30:00 [error] 10#10: *13 "/usr/share/nginx/html/nginxproxy/orangehrm-apache/index.html" is not found (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /nginxproxy/orangehrm-apache/ HTTP/1.1", host: "localhost:7071"
+2017/07/10 11:30:02 [error] 10#10: *13 "/usr/share/nginx/html/nginxproxy/orangehrm-apache/index.html" is not found (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /nginxproxy/orangehrm-apache/ HTTP/1.1", host: "localhost:7071"
+2017/07/10 11:33:19 [error] 10#10: *25 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /nginx-consul-443 HTTP/1.1", upstream: "http://172.22.0.6:7071/nginx-consul-443", host: "localhost:7071"
+2017/07/10 11:38:46 [notice] 22#22: signal process started
+2017/07/10 11:38:47 [notice] 25#25: signal process started
+2017/07/10 11:44:13 [notice] 21#21: signal process started
+2017/07/10 11:44:13 [notice] 24#24: signal process started
+2017/07/10 11:44:14 [notice] 27#27: signal process started
+2017/07/10 11:47:10 [notice] 30#30: signal process started
+2017/07/10 11:47:12 [notice] 33#33: signal process started
+2017/07/10 11:47:38 [notice] 22#22: signal process started
