@@ -1,0 +1,4 @@
+MYSQL_ROOT_PASSWORD = admin
+DB_NAME = orangehrm_sql
+MYSQL_USER = root
+MYSQL_PASSWORD = admin

@@ -1,0 +1,46 @@
+2017/07/10 06:43:54 [notice] 20#20: signal process started
+2017/07/10 06:57:06 [error] 11#11: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: example.com, request: "GET /favicon.ico HTTP/1.1", host: "localhost:9091", referrer: "http://localhost:9091/"
+2017/07/10 07:49:27 [notice] 21#21: signal process started
+2017/07/10 07:52:41 [notice] 21#21: signal process started
+2017/07/10 07:56:52 [notice] 23#23: signal process started
+2017/07/10 08:34:24 [emerg] 40#40: no "events" section in configuration
+2017/07/10 09:02:19 [emerg] 7#7: open() "/etc/nginx/upstreams/services.conf" failed (2: No such file or directory) in /etc/nginx/nginx.conf:7
+2017/07/10 09:02:24 [emerg] 19#19: open() "/etc/nginx/upstreams/services.conf" failed (2: No such file or directory) in /etc/nginx/nginx.conf:7
+2017/07/10 09:02:25 [emerg] 7#7: open() "/etc/nginx/upstreams/services.conf" failed (2: No such file or directory) in /etc/nginx/nginx.conf:7
+2017/07/10 09:33:52 [emerg] 7#7: unexpected end of file, expecting "}" in /etc/nginx/nginx.conf:12
+2017/07/10 09:36:00 [emerg] 9#9: unexpected end of file, expecting "}" in /etc/nginx/nginx.conf:12
+2017/07/10 09:36:38 [emerg] 27#27: unexpected end of file, expecting "}" in /etc/nginx/nginx.conf:12
+2017/07/10 09:36:52 [notice] 28#28: signal process started
+2017/07/10 09:36:52 [error] 28#28: open() "/var/run/nginx.pid" failed (2: No such file or directory)
+2017/07/10 09:37:40 [notice] 25#25: signal process started
+2017/07/10 09:41:51 [notice] 21#21: signal process started
+2017/07/10 09:42:12 [error] 22#22: *3 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /favicon.ico HTTP/1.1", host: "localhost:7071", referrer: "https://localhost:7071/"
+2017/07/10 09:43:30 [error] 22#22: *3 open() "/usr/share/nginx/html/nginxproxy" failed (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /nginxproxy HTTP/1.1", host: "localhost:7071"
+2017/07/10 09:43:54 [error] 22#22: *3 open() "/usr/share/nginx/html/nginxproxy/nginx-443" failed (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /nginxproxy/nginx-443 HTTP/1.1", host: "localhost:7071"
+2017/07/10 09:43:58 [error] 22#22: *3 open() "/usr/share/nginx/html/nginxproxy/nginx-443" failed (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /nginxproxy/nginx-443 HTTP/1.1", host: "localhost:7071"
+2017/07/10 09:44:01 [error] 22#22: *3 open() "/usr/share/nginx/html/nginxproxy/nginx-443" failed (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /nginxproxy/nginx-443 HTTP/1.1", host: "localhost:7071"
+2017/07/10 09:44:13 [error] 22#22: *15 open() "/usr/share/nginx/html/nginxproxy/nginx-443" failed (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /nginxproxy/nginx-443 HTTP/1.1", host: "localhost:7071"
+2017/07/10 09:44:15 [error] 22#22: *15 open() "/usr/share/nginx/html/nginxproxy/nginx-443" failed (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /nginxproxy/nginx-443 HTTP/1.1", host: "localhost:7071"
+2017/07/10 09:44:42 [error] 22#22: *15 open() "/usr/share/nginx/html/nginxproxy" failed (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /nginxproxy HTTP/1.1", host: "localhost:7071"
+2017/07/10 09:44:45 [error] 22#22: *15 open() "/usr/share/nginx/html/nginxproxy" failed (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /nginxproxy HTTP/1.1", host: "localhost:7071"
+2017/07/10 09:50:52 [error] 22#22: *40 open() "/usr/share/nginx/html/nginxproxy/nginx-443" failed (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /nginxproxy/nginx-443 HTTP/1.1", host: "localhost:7071"
+2017/07/10 09:50:56 [error] 22#22: *40 open() "/usr/share/nginx/html/nginxproxy/nginx-443" failed (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /nginxproxy/nginx-443 HTTP/1.1", host: "localhost:7071"
+2017/07/10 09:51:52 [notice] 21#21: signal process started
+2017/07/10 09:52:45 [error] 22#22: *10 "/usr/share/nginx/html/nginxproxy/index.html" is not found (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /nginxproxy/ HTTP/1.1", host: "localhost:7071"
+2017/07/10 09:52:48 [error] 22#22: *10 "/usr/share/nginx/html/nginxproxy/index.html" is not found (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /nginxproxy/ HTTP/1.1", host: "localhost:7071"
+2017/07/10 09:53:09 [error] 22#22: *10 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /consul HTTP/1.1", upstream: "http://172.22.0.2:8300/consul", host: "localhost:7071"
+2017/07/10 09:54:37 [error] 22#22: *25 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /nginx-consul-443 HTTP/1.1", upstream: "http://172.22.0.6:7071/nginx-consul-443", host: "localhost:7071"
+2017/07/10 09:54:45 [error] 22#22: *25 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /nginx-consul-80 HTTP/1.1", upstream: "http://172.22.0.6:9091/nginx-consul-80", host: "localhost:7071"
+2017/07/10 09:54:48 [error] 22#22: *25 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /nginx-consul-80 HTTP/1.1", upstream: "http://172.22.0.6:9091/nginx-consul-80", host: "localhost:7071"
+2017/07/10 09:55:11 [error] 22#22: *35 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /nginx-consul-80 HTTP/1.1", upstream: "http://172.22.0.6:9091/nginx-consul-80", host: "localhost:7071"
+2017/07/10 09:55:13 [error] 22#22: *35 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /nginx-consul-80 HTTP/1.1", upstream: "http://172.22.0.6:9091/nginx-consul-80", host: "localhost:7071"
+2017/07/10 09:56:34 [error] 22#22: *35 upstream timed out (110: Operation timed out) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /orangehrm-environment-images-443 HTTP/1.1", upstream: "http://10.5.0.5:8443/orangehrm-environment-images-443", host: "localhost:7071"
+2017/07/10 09:57:34 [error] 22#22: *35 upstream timed out (110: Operation timed out) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /orangehrm-environment-images-443 HTTP/1.1", upstream: "http://10.5.0.2:9443/orangehrm-environment-images-443", host: "localhost:7071"
+2017/07/10 09:58:14 [error] 22#22: *35 open() "/usr/share/nginx/html/nginxproxy/orangehrm-environment-images-443" failed (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /nginxproxy/orangehrm-environment-images-443 HTTP/1.1", host: "localhost:7071"
+2017/07/10 09:58:17 [error] 22#22: *35 open() "/usr/share/nginx/html/nginxproxy/orangehrm-environment-images-443" failed (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /nginxproxy/orangehrm-environment-images-443 HTTP/1.1", host: "localhost:7071"
+2017/07/10 09:58:19 [error] 22#22: *35 open() "/usr/share/nginx/html/nginxproxy/orangehrm-environment-images-443" failed (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /nginxproxy/orangehrm-environment-images-443 HTTP/1.1", host: "localhost:7071"
+2017/07/10 09:58:22 [error] 22#22: *35 open() "/usr/share/nginx/html/nginxproxy" failed (2: No such file or directory), client: 172.22.0.1, server: nginxproxy, request: "GET /nginxproxy HTTP/1.1", host: "localhost:7071"
+2017/07/10 10:01:33 [error] 22#22: *49 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /nginx-consul-443 HTTP/1.1", upstream: "http://172.22.0.6:7071/nginx-consul-443", host: "localhost:7071"
+2017/07/10 10:01:35 [error] 22#22: *49 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /nginx-consul-443 HTTP/1.1", upstream: "http://172.22.0.6:7071/nginx-consul-443", host: "localhost:7071"
+2017/07/10 10:01:38 [error] 22#22: *49 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /nginx-consul-443 HTTP/1.1", upstream: "http://172.22.0.6:7071/nginx-consul-443", host: "localhost:7071"
+2017/07/10 10:01:40 [error] 22#22: *49 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxy, request: "GET /nginx-consul-443 HTTP/1.1", upstream: "http://172.22.0.6:7071/nginx-consul-443", host: "localhost:7071"
